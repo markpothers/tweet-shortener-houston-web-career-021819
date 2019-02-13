@@ -33,8 +33,10 @@ end
 
 def bulk_tweet_shortener(tweets)
   new_tweets = []
+  x = 0
     tweets.each do |tweet|
       new_tweets << word_substituter(tweet)
+      puts new_tweets[x]
+      x += 1
     end
-puts new_tweets
 end
