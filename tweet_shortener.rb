@@ -60,7 +60,7 @@ new_tweet = ""
   end
 
   if new_tweet.length > 140
-    new_tweet = new_tweet[0..138] + "..."
+    new_tweet = new_tweet[0..136] + "..."
   end
 
 new_tweet
